@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.digitalhouse.fragment.MainActivity"
+    android:weightSum="100"
+    android:orientation="vertical">
+
+    <!-- Hya que tener en cuenta, que cada vez que se haga linear hay que decidir cual queres que gane con su peso
+    -->
+    <FrameLayout
+        android:id="@+id/contenedor"
+        android:layout_weight="50"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/backgroundActivity"
+        android:layout_weight="50"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/btnOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="boton 1"
+            android:layout_marginTop="50dp"/>
+        <Button
+            android:id="@+id/btnTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="boton 2"/>
+    </LinearLayout>
+
+</LinearLayout>

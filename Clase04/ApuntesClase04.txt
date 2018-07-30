@@ -1,0 +1,67 @@
+Al abrir el android estudio:
+	-company domain:
+		unico! Dominio donde se va a encontrar alojado.
+
+Opcion PHONE, TABLET: numero de version minima. la mas aceptable es la 16. 
+El problema es que mas adelante podria generar problemas de compatibilidad.
+
+Activity:
+una app android es un conjunto de activity, donde tenemos codigo y vista
+
+
+Hay diferentes vistas en el IDE:
+	-vista android no es como estan estructuradas las carpetas: sino en proyect file
+	
+Tres carpetas principales en app:
+	MANIFEST: donde registro permisos, cantidad de actividades. Google play chequea primero el manifiesto.
+	JAVA: donde se encuentra el codigo
+	RES: carpeta de los recursos, ya se imagenes, colores, estilos etc. No puede haber nada harcodeado en el codigo.
+		*layout son las vistas
+		*mipmap: son los iconos.
+		
+
+		
+En el manifest se dice que activity es la principal:
+	se fija con 
+				<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+				
+	
+LinearLayout: dependiendo de su origientacion es donde se VA A VER O QUE SE VE PRIEMERO
+
+FRANELAYOUT: superpone las vista
+
+Relative: es relativo a otra vista
+
+Constraint 
+
+
+Tamaños
+hay distintas densidades en las pantallas: para poder controlarlo se utiliza con la medida dp, que es tomarlo desde la densidad de pantallas
+
+si estoy desde el xml es con el @ si estoy en java desde el acceso
+
+///////////////CICLO DE VIDA
+Sirve para decirle en que estado esta la app
+
+ONCREATE() --> se crea la aplicacion
+
+ONSTART() ---> pasa a estar started, pero el usuario no tiene parte de la utilizacion
+
+ONRESUME() --> cuando se encuentra en onresume en estado resumed, ya el usuario tiene permitido la interesacion
+
+ONPAUSE()-->cuando se encuentra una llamada, se pone en pausa.
+
+ONRESTART()
+
+ONSTOP() -->se ejecuta casi junto el stop y pause.
+
+ONDESTROY() -->
+
+										   -> onresume
+created -- Started --> resume ---> paused |
+										   ->stop ->destroy
+												|
+												 -> Start
+
+ONSTOP()

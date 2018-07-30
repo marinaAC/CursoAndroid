@@ -1,0 +1,22 @@
+Clase 05
+
+UI--> Guiamiento visual, de un producto a traves de una interfaz
+
+UX--->satifaccion del cliente
+
+
+Material.io --> chusmear.
+Libreria, en la cual te ayuda bastante a resolver cosas de ux
+Funciona a partir de la version 5 (v 20 lolipop)
+
+importar dependencias --> com.android.support:design:27.1.0
+
+y luego en el layout
+
+FAB float action button
+
+-layout-anchor
+anchor-gravity: right|bottom
+
+La diferencia entre el id+ es cuando vos asignas un id a ese elemento, en cuanto le pasas solo el id, haces referencia a uno nuevo
+sadsa

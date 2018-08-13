@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "43967171274",
+    "firebase_url": "https://chatm-fbb35.firebaseio.com",
+    "project_id": "chatm-fbb35",
+    "storage_bucket": "chatm-fbb35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43967171274:android:134315326d8dc6c4",
+        "android_client_info": {
+          "package_name": "com.example.digital.chataplicationm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43967171274-6sfbar6sguh36d5d928feuipucg58lo0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.digital.chataplicationm",
+            "certificate_hash": "6e205ec8bab6170cc3aacc71b5842a8156fc810e"
+          }
+        },
+        {
+          "client_id": "43967171274-9from7eq3lbacoeqk5n6k5udqa9s11ig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBImZR47CJRvUm0hshQuTWdlq5pbCr96fM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43967171274-9from7eq3lbacoeqk5n6k5udqa9s11ig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

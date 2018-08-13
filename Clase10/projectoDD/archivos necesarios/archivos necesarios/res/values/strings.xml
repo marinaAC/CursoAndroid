@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WhatsAppChatMio</string>
+    <string name="edit_hint">Escribir mensaje</string>
+</resources>
